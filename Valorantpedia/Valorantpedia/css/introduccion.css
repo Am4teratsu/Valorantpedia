@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: arial;
+}
+
+/*Navegacion*/
+header{
+    background-color: #222222;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+.menu-nav{
+    width: 900px;
+    margin: 0 auto;
+}
+.nav{
+    width: 120px;
+    height: 100%;
+    float: left;
+    padding: 8px;
+}
+.nav-img{
+    height: 70px;
+    width: auto;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: DINNextW1G,arial,georgia,sans-serif;
+}
+
+/*Banner*/
+.video-banner{
+    width: 100%;
+    height: 25%;
+}
+
+/*Presentacion de Valorantpedia*/
+.contenedor-titulo-1{
+    width: 100%;
+    padding-left: 205px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.somos-valorantpedia{
+    color: #0f1923;
+    font-family: Tungsten-Bold,arial,georgia,sans-serif;
+    font-size: 400%;
+    text-transform: uppercase;
+}
+
+.contenedor-1{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+.contenedor-texto-1{
+    width: 35%;
+    padding: 40px;
+}
+.contenedor-texto-1 p{
+    font-size: 115%;
+    margin: 40px 0;
+    color: rgb(138, 138, 138);
+    font-family: DINNextW1G,arial,georgia,sans-serif;
+    line-height: 1.7;
+}
+.contenedor-video-1{
+    width: 35%;
+}
+.video-section-1{
+    width: 130%;
+    padding: 40px;
+}
+
+/*Informacion de abajo*/
+.contenedor-2{
+    background-color: #222222;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.footer-text{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box1, .box2, .box3, .box4{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+}
+.box5, .box6{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+}
+h3{
+    font-size: 24px;
+    margin: 29px 0;
+    font-family: DINNextW1G,arial,georgia,sans-serif;
+}
+.box1 a, .box2 a, .box3 a, .box4 a, .box5 a{
+    text-decoration: none;
+    color: #fff;
+    margin: 13px 0;
+    font-size: 17px;
+    font-family: DINNextW1G,arial,georgia,sans-serif;
+}
+.redes-sociales{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: top;
+    margin: 0;
+}
+.redes-sociales img{
+    object-fit: cover;
+    height: 30%;
+    margin-right: 15px;
+}
